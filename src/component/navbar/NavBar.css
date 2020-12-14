@@ -1,0 +1,30 @@
+
+.small-nav{
+    height: 35pt;
+    padding-left: 80pt;
+}
+
+.small-nav-num{
+    font-size: medium;
+}
+
+.nav{ 
+    padding-left: 80pt;
+    height: 65pt;
+    /* padding-top: 50pt; */
+}
+
+.mr-auto{
+    padding-left: 280pt;
+    font-size: 17pt;
+}
+
+.carousel{
+    height: fit-content;
+}
+
+.button-mv{
+    text-align: left;
+    padding-left: 80pt;
+    padding-top: 50pt;
+}
