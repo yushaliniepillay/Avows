@@ -39,7 +39,6 @@ class SliderScreen extends React.Component {
                                     <h1>{title}</h1>
                                     <p>{description}</p>
                                     <p>{list}</p>
-                                    {/* <button>{item.button}</button> */}
                                 </div>
                                 <div className="slider-button">
                                     <section>
