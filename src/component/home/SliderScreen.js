@@ -28,13 +28,13 @@ class SliderScreen extends React.Component {
     render() {
         return (
             <div>
-                <Slider className="slider-wrapper" autoplay={3000}>
+                <Slider className="slider-wrapper" autoplay={1000}>
                     {
                         this.state.sliders.map(({ id, title, description, list, image }) => (
-                            <div
-                                key={id}
+                            <div key={id}
                                 className="slider-content"
-                                style={{ background: <img src={`http://localhost:1337${image.url}`} /> }} >
+                                style={{ background:  {image} }} >
+                                {/* <img  src= {`http://localhost:1337${image.url}`} /> */}
                                 <div className="inner">
                                     <h1>{title}</h1>
                                     <p>{description}</p>

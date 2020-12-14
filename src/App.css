@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.mr-auto{
+  padding-left: 280pt;
+  font-size: 17pt;
+}
+
+.our-mv{
+  padding: 0pt;
+}
